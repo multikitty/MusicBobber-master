@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Audio Widget Example</string>
+    <string name="search">Search</string>
+    <string name="album_cover">Album Cover</string>
+    <string name="permissions_title">Permissions</string>
+    <string name="draw_over_permissions_message">To display Audio Widget app needs the permission to draw over another apps.</string>
+    <string name="read_ext_permissions_message">To load list of music app needs access to your media files.</string>
+    <string name="btn_continue">Continue</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="toast_permissions_not_granted">Permissions not granted.</string>
+    <string name="no_music_found">No music found</string>
+    <string name="song_not_selected">Song not selected!</string>
+</resources>

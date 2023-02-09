@@ -1,0 +1,21 @@
+ext {
+    compileSdkVersion = 28
+    minSdkVersion = 14
+    buildToolsVersion = '28.0.3'
+    targetSdkVersion = 28
+
+    supportVersion = "1.1.0-alpha05"
+    paletteVersion = "1.0.0-alpha1"
+
+    glideVersion = '4.9.0'
+
+    supportDependencies = [
+            appCompat   : "androidx.appcompat:appcompat:$supportVersion",
+            recyclerView: "androidx.recyclerview:recyclerview:$supportVersion",
+            palette     : "androidx.palette:palette:$paletteVersion"
+    ]
+
+    glideDependencies = [
+            glide         : "com.github.bumptech.glide:glide:$glideVersion"
+    ]
+}
